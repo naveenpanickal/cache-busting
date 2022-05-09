@@ -17,9 +17,9 @@ export class ContactComponent implements OnInit {
 
   ngOnInit(): void {
 
-    setTimeout(()=> { console.log("HELLO");
-    window.location.href = window.location.href
-    }, 5000)
+    // setTimeout(()=> { console.log("HELLO");
+    // window.location.href = window.location.href
+    // }, 5000)
 
   }
 
