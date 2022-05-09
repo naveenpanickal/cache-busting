@@ -10,7 +10,7 @@ const routes: Routes = [
   {path: 'about', component: AboutComponent},
   {path: 'gallery', component: GalleryComponent },
   {path:'contact', component: ContactComponent},
-  {path:'**', redirectTo:'/not-found'}
+  {path:'**', redirectTo:''}
 ];
 
 @NgModule({
